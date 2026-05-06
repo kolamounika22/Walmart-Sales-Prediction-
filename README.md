@@ -7,16 +7,28 @@ Finally, feature importance is analyzed to understand which factors influence sa
 
 Steps I followed:
 
-I developed a Walmart sales prediction model using machine learning to forecast product sales across different outlets. 
-The objective was to identify key factors influencing sales and improve business decision-making.
-I started with data preprocessing, where I cleaned the dataset, handled missing values, and removed irrelevant features such as item and outlet identifiers. 
-I then encoded categorical variables like item type, outlet type, and location type to make them suitable for model training.
-Next, I performed exploratory data analysis to understand patterns and relationships in the data. 
-Using correlation analysis, I identified important features such as Item MRP and Outlet Type that significantly impact sales.
-After preprocessing, I split the dataset into training and testing sets to evaluate model performance effectively.
-I trained a Random Forest Regressor, which is robust and handles non-linear relationships well.
-To evaluate the model, I used metrics like R² (Coefficient of Determination) and MAE (Mean Absolute Error). 
-The model achieved strong performance, indicating good predictive accuracy and reliability.
-Finally, I analyzed feature importance to understand the key drivers of sales.
-This helped identify that pricing (Item MRP) and store characteristics (Outlet Type, Location) play a major role in sales performance.
-Overall, this project demonstrates how machine learning can be used to generate actionable insights, optimize inventory, and improve revenue forecasting in retail businesses.
+1. I developed a Walmart sales prediction model using machine learning to forecast product sales across different outlets. 
+
+2. The objective was to identify key factors influencing sales and improve business decision-making.
+
+3. I started with data preprocessing, where I cleaned the dataset, handled missing values, and removed irrelevant features such as item and outlet identifiers. 
+
+4. I then encoded categorical variables like item type, outlet type, and location type to make them suitable for model training.
+
+5. Next, I performed exploratory data analysis to understand patterns and relationships in the data. 
+
+6. Using correlation analysis, I identified important features such as Item MRP and Outlet Type that significantly impact sales.
+
+7. After preprocessing, I split the dataset into training and testing sets to evaluate model performance effectively.
+
+8. I trained a Random Forest Regressor, which is robust and handles non-linear relationships well.
+
+9. To evaluate the model, I used metrics like R² (Coefficient of Determination) and MAE (Mean Absolute Error). 
+
+10. The model achieved strong performance, indicating good predictive accuracy and reliability.
+
+11. Finally, I analyzed feature importance to understand the key drivers of sales.
+
+12. This helped identify that pricing (Item MRP) and store characteristics (Outlet Type, Location) play a major role in sales performance.
+
+13. Overall, this project demonstrates how machine learning can be used to generate actionable insights, optimize inventory, and improve revenue forecasting in retail businesses.
